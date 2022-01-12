@@ -1,3 +1,2 @@
-
 if __name__=='__main__':
-    print('这个汉字')
+    print('Hello world!')
