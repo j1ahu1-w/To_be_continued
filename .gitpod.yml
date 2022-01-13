@@ -1,2 +1,15 @@
 image:
   file: .gitpod.Dockerfile
+
+tasks:
+  - name: "make two task"
+    command: |
+      echo "第一行"
+      echo "第二行"
+      pwd
+      
+  
+  - name: "star our db and to some test"
+    command: |
+      /bin/bash /workspace/To_be_continued/star_db.sh
+      exit
