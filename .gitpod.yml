@@ -7,9 +7,9 @@ tasks:
       echo "第一行"
       echo "第二行"
       pwd
-      
+      exit
   
   - name: "star our db and to some test"
     command: |
       /bin/bash /workspace/To_be_continued/start_db.sh
-      
+      exit
