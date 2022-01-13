@@ -12,4 +12,4 @@ tasks:
   - name: "star our db and to some test"
     command: |
       /bin/bash /workspace/To_be_continued/star_db.sh
-      exit
+      
