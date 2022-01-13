@@ -1,3 +1,4 @@
+
 image:
   file: .gitpod.Dockerfile
 
@@ -9,8 +10,12 @@ tasks:
       echo "..."
       pwd
       exit
-  
+
   - name: "star our db and to some test"
     command: |
       /bin/bash /workspace/To_be_continued/start_db.sh
       exit
+
+vscode:
+  extensions:
+    - ms-python.python
